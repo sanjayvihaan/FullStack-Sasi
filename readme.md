@@ -78,7 +78,7 @@
     3. Static Methods in TypeScript 
     4. Understanding Interfaces in TypeScript
 
-# Day 8 - ReactJs : Introduction and Features
+# Day 8 - ReactJs : Introduction and Features (04-09-24)
     ReatJS: ReactJS is an open-source JavaScript library primarily used for building user interfaces (Front-end), especially for single-page applications (SPAs). It allows developers to create large web applications that can update and render efficiently with minimal coding.
 
 
