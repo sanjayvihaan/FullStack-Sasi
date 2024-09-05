@@ -107,3 +107,29 @@
 
     How React Enables SPAs: React is ideal for building SPAs due to its component-based architecture and virtual DOM. React components can dynamically update and render based on the application's state, making it easy to build responsive and interactive SPAs.
 
+
+
+# Day 9 - ReactJS(05-09-24)
+    It is good to know these folders and files:
+        1. node_modules: Stores all the necessary node packages of the React applications.
+        2. public:
+            a. favicon.ico: an Icon file
+            b. index.html: The only HTML file we have in the entire application
+            c. Images: Will store in the public folder only.
+            d. manifest.json: It is used to make the application a progressive web app
+            c. robots.txt: Tells search engine crawlers which URLs the crawler can access on your site
+
+
+        3. src:
+            a. App.css, index.css - Are different CSS files for designing the page
+            b. index.js : a file which allows to connect all the components with index.html inside public folder
+            c. App.js: A file where we usually import most of the presentational components
+            d. serviceWorker.js: is used to add progressive web app features
+            c. setupTests.js - to write testing cases
+        
+        4. package.json: List of packages the applications uses
+
+        5. .gitignore: React boilerplate come with git initiated, and the .gitignore allows files and folders not to be pushed to Github
+
+        6. README.md - Markdown file to write documentation
+
