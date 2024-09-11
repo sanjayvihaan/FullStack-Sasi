@@ -133,3 +133,15 @@
 
         6. README.md - Markdown file to write documentation
 
+
+# Day 10 - ReactJS(11-09-24)
+    1. React Components
+        A React component is a small, reusable code, which is responsible for one part of the application UI. A React application is an aggregation of components. 
+
+        Components can be;
+        a. Functional Component / Presentational Component / Stateless Component / Dumb Component
+        b. Class Component / Container Component / Statefull Component / Smart Component
+
+    2. Injecting data to JSX elements
+    3. Creating the JSX elements inside the index.js of react folder
+    4. Class, objects and functions - Revise
