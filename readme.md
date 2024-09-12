@@ -145,3 +145,7 @@
     2. Injecting data to JSX elements
     3. Creating the JSX elements inside the index.js of react folder
     4. Class, objects and functions - Revise
+
+# Day 11 - ReactJS(12-09-24)
+    1. Creating React Component
+        a. Functional Component

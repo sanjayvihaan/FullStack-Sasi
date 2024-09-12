@@ -1,37 +1,54 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import reactLogo from './images/react_logo.png'
 
+
+
+
 const headerStyles = {
-  backgroundColor: "orange",
-  fontFamily: "Sans-serif",
-  padding: 25,
-}
-
-
-// Injecting data to JSX elements:
-const welcome = "This is a learning of React"
-const des = "It is a Javascript Library"
-
-
+    backgroundColor: "orange",
+    fontFamily: "Sans-serif",
+    padding: 25,
+  }
+  
+  
+  // Injecting data to JSX elements:
+  const welcome = "This is a learning of React"
+  const des = "It is a Javascript Library"
 
 //JSX (Javascript XML), Header
 
 const header = (
-  <header style={headerStyles}>
-    <h1 className='headerH1'>{welcome}</h1>
-    <p>{des}</p>
-  </header>
-)
+    <header style={headerStyles}>
+      <h1 className='headerH1'>{welcome}</h1>
+      <p>{des}</p>
+    </header>
+  )
 
+// React Component
 
-// JSX, Main
+// const Header = () => {
+//     return header
+// }
+
+//====================================================
+// Or we can just return the JSX
+const Header = () => {
+    return (
+        <header style={headerStyles}>
+            <h1 className='headerH1'>{welcome}</h1>
+            <p>{des}</p>
+        </header> 
+    )
+}
+
 
 const techs = ['HTML', 'CSS', 'JavaScript', 'Python']
 const techsLoop = techs.map((tech) => <li>{tech}</li>)
 
-const main = (
-  <main>
+const Main = () => {
+    return (
+        <main>
     <p>If you want to start with React</p>
     <ul>
       {techsLoop}
@@ -42,27 +59,20 @@ const main = (
 
 
   </main>
-)
+    )
+}
+
+const App = () => {
+    return (
+       <>
+         <Header/>
+         <Main/>
+       </>
+    )
+}
 
 
-const footer = (
-  <footer>
-    <p>Copyright 2024 - Fita Academy</p>
-  </footer>
-)
-
-
-const app =(
-  <div>
-    {header}
-    {main}
-    {footer}
-  </div>
-)
-
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(app, root);
-  // <React.StrictMode>
-  // </React.StrictMode>
+///---------- Need to render the above JSX to the root of index.html in the public folder --------------
+const root = document.getElementById('root')
+// we render the JSX element using the ReactDOM package
+ReactDOM.render(<App/>, root)
