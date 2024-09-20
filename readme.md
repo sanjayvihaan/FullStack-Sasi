@@ -154,3 +154,20 @@
     1. React Props
         Props is a special keyword in React that stands for properties and is being used to pass the data from one component to another and mostly from parent component to child component.
         We can say props is a data carrier that mean transporting
+
+# Day 13 - ReactJS (19-09-24)
+    1. React Props
+        Props is a special keyword in React that stands for properties and is being used to pass the data from one component to another and mostly from parent component to child component.
+        We can say props is a data carrier that mean transporting
+
+# Day 14 - ReactJS (20-09-24)
+    2. Props Object
+        Different data type props
+            a. String props type
+            b. Number props type
+            c. Boolean props type
+            d. Array props type
+            e. Object props type
+            f. Function prop types
+    
+    3. Destructuring props
