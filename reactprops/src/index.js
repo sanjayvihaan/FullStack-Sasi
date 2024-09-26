@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
+import BooleanProps from './components/BooleanProps'
+import ArrayProps from './components/ArrayProps';
+import ObjectProps from './components/ObjectProps';
+import ObjectsProps from './components/ObjectsProps';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <BooleanProps />
+    <ArrayProps />
+    <ObjectProps />
+
+    <ObjectsProps />
   </React.StrictMode>
 );
 

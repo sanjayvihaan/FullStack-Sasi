@@ -171,3 +171,11 @@
             f. Function prop types
     
     3. Destructuring props
+
+
+# Day 15 - ReactJS (26-09-24)
+    a. String props type
+    b. Number props type
+    c. Boolean props type
+    d. Array props type
+    e. Object props type

@@ -19,6 +19,10 @@ const Header = (props) => {
     'padding': '10px'
   }
 
+  const currentYear = 2024
+  const birthYear = 2002
+  const age = currentYear - birthYear
+
   return (
     // My Header component - Layout
     <div style={myStyle}>
@@ -40,7 +44,15 @@ const Header = (props) => {
           ))}
         </ol>
       </div>
+      {props.currentYear}
+
+
+      <div>
+          <h2>My current age is {age}</h2>
+      </div>
     </div>
+
+   
   )
 }
 
@@ -55,7 +67,9 @@ function App() {
   // To render on the page
   const title = "React Website"
   const lists = ['Home', 'About', 'Contact', 'Integrations']
-  const logo = ""
+  // const logo = ""
+
+  const currentYear = 2020
 
   const listUrls  = [
     "https://google.com",
@@ -69,7 +83,7 @@ function App() {
 
     // Which is calling my all the Components in the Div using <Header />
     <div className="App">
-      <Header title={title} lists={lists} listUrls={listUrls} />
+      <Header title={title} lists={lists} listUrls={listUrls} currentYear={currentYear}/>
     </div>
   );
 }
