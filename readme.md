@@ -179,3 +179,16 @@
     c. Boolean props type
     d. Array props type
     e. Object props type
+
+# Day 15 - ReactJS (27-09-24)
+    a. Function props type
+
+    1. React Foundation
+    2. Understanding DOMs
+        1. Virtual DOM
+        2. Real DOM
+    3. React Jargon
+        1. State - Pending
+        2. Component
+        3. Re-rendering
+

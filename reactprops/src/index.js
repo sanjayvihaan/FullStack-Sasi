@@ -6,6 +6,8 @@ import BooleanProps from './components/BooleanProps'
 import ArrayProps from './components/ArrayProps';
 import ObjectProps from './components/ObjectProps';
 import ObjectsProps from './components/ObjectsProps';
+import FunctionProps from './components/FunctionProps';
+import ReRender from './components/ReRender';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +18,12 @@ root.render(
     <ObjectProps />
 
     <ObjectsProps />
+
+    <FunctionProps />
+
+    <ReRender />
+
+
   </React.StrictMode>
 );
 
