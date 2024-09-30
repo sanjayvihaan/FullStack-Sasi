@@ -192,3 +192,8 @@
         2. Component
         3. Re-rendering
 
+# Day 16 - ReactJS (30-09-24)
+    1. Hooks State
+    2. Hooks 
+    3. React Fragments/Reconciliation
+    4. Array Destructuring & Object Destructuring

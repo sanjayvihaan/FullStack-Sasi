@@ -9,6 +9,8 @@ import ObjectsProps from './components/ObjectsProps';
 import FunctionProps from './components/FunctionProps';
 import ReRender from './components/ReRender';
 
+import State from './components/State';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -22,6 +24,8 @@ root.render(
     <FunctionProps />
 
     <ReRender />
+
+    <State />
 
 
   </React.StrictMode>
